@@ -1,4 +1,5 @@
-# ToaruOS 2.0 root Makefile
+# ~ToaruOS 2.0 root Makefile~
+# FireflyOS 0.9 root Mkfile
 TOOLCHAIN=util
 BASE=base
 export PATH := $(shell $(TOOLCHAIN)/activate.sh)
