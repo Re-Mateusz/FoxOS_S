@@ -85,8 +85,8 @@ static void redraw(void) {
 }
 
 static void init_default(void) {
-	title_str = "About ToaruOS";
-	icon_path = "/usr/share/logo_login.png";
+	title_str = "About FireflyOS";
+	icon_path = "/usr/share/fire_login.png";
 
 	{
 		version_str = malloc(100);
@@ -96,13 +96,13 @@ static void init_default(void) {
 		if (tmp) {
 			*tmp = '\0';
 		}
-		sprintf(version_str, "ToaruOS %s", u.release);
+		sprintf(version_str, "FireflyOS %s", u.release);
 	}
 
 	copyright_str[0] = "© 2011-2024 K. Lange, et al.";
 	copyright_str[1] = "-";
-	copyright_str[2] = "ToaruOS is free software released under the";
-	copyright_str[3] = "NCSA/University of Illinois license.";
+	copyright_str[2] = "FireflyOS is free software released as";
+	copyright_str[3] = "ToaruOS-fork project!";
 	copyright_str[4] = "-";
 	copyright_str[5] = "%https://toaruos.org";
 	copyright_str[6] = "%https://github.com/klange/toaruos";
