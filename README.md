@@ -232,3 +232,5 @@ While I aim to support POSIX interfaces well enough for software to be ported, s
 ToaruOS is a personal project, not a community project. Contributions in the form of code should be discussed in advance. Ports and other work outside of the repo, however, are a great way to help out.
 
 You can also help by contributing to [Kuroko](https://github.com/kuroko-lang/kuroko) - which is part of why it's kept as a separate repository.
+
+[![QEMU AArch64 virt](https://github.com/Re-Mateusz/FireflyOS/actions/workflows/aarch64.yml/badge.svg?branch=master)](https://github.com/Re-Mateusz/FireflyOS/actions/workflows/aarch64.yml)
